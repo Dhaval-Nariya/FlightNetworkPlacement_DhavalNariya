@@ -1,0 +1,36 @@
+
+
+Algorithm For Game :
+
+Start :
+
+		M <- No. of kids 
+		N <- Random No.(M>N)
+
+
+		Get the detail of M students in Circular Linked-List
+		
+		var Temp , Winner
+		Temp <- 1st Kid
+
+		while(M>0)
+		{
+	
+			i <- N;
+
+			while(i>0)
+			{
+
+				temp.next
+				i--
+			}
+		
+			Delete node before temp
+			
+			M--
+		}
+
+		Print Winner <- temp
+
+
+End;
