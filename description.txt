@@ -1,0 +1,19 @@
+ Description:
+
+Programme 1a)
+	This is the programme of stack for push and pop operation made in java. In this programme only forward number is possible so , it is possible to (1,2,3,4,5..stack size) .
+As I had done in programme, difference between the given number and previous number should be only 1. Like
+As if (a [I] ==a [I-1]-1) satisfy then and then it will push the Number otherwise break from there and give error message and a[I] is also pushed.
+ All are done before the calling method –pushmethod. And it will pass only that chosen number and in method it will push the number in terms of array of index. We took top of the stack as (-1) and increment it as number comes. And we pop as decrement the index and print it as pop numbers.
+
+Programme 1bR and 1bF)
+		This is the programme of stack for push and pop operation made in java. Programme is same as programme 1a but here it is declared that it will continue go in circular way either it is in Forward or reverse order as (8,9,0,1,2,3) 0r (2,1,0,9,8,7).
+	In that, programmes are same but only two conditions are different. Here, May either increment ((a [I] ==a [I-1]-1)) or decrement (a [I] ==a [I-1] +1)) but in increment/decrement when the last number is 9/0 then check the condition for next element is 0/9 then check condition for +/-. And print as per push numbers by calling method, increment index. As reverse the position and decrease index you can get the pop numbers.
+	
+ Algorithm:
+	It is a game in that we are given two numbers , M as number of kids and N as random number that position should be deleted or out.
+For the condition M>N, we can take one circular linked list and in that arrange the M kids and delete or pass out the kids that are at the position of N. And start first from the next to pass out kids and eliminate continuously until the last kids remain.
+So here last kid is then declared to winner.
+
+
+	
